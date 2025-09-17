@@ -27,6 +27,7 @@ Inserire nella cartella `backend/` il file **.env** con i seguenti campi:
  - `FIREBASE_CLIENT_EMAIL`
  - `FIREBASE_PRIVATE_KEY`
  - `FIREBASE_VAPID_PUBLIC_KEY`
+
 Inserire nella cartella `frontend/` il file **.env** con i seguenti campi:
  - `FIREBASE_API_KEY`
  - `FIREBASE_AUTH_DOMAIN`
