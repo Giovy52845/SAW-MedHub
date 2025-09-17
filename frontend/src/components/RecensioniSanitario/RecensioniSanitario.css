@@ -1,0 +1,116 @@
+.recensioni-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.recensioni-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.recensione-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgb(185, 177, 177);
+}
+
+.recensione-btn:hover {
+    transform: scale(1.02);
+}
+
+.recensione-star {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.recensione-star .star-rating svg {
+  font-size: 20px !important;
+}
+
+.recensione-star p {
+    font-size: 18px;
+}
+
+.recensione-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.recensione-item-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recensione-firma-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recensione-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #B2EDE8;
+}
+
+.recensione-circle p {
+    margin: 0;
+    color: grey;
+}
+
+.recensione-firma p,
+.verifica-box p {
+    margin: 0;
+}
+
+.verifica-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: 500;
+}
+
+.verifica-box.non_verificato { 
+    background-color: #E9ECEF;
+    color: #495057;
+    font-size: 12px;
+}
+
+.verifica-box.verificato {
+    background-color: #D4F5EF;
+    color: #00BFA6;
+    font-size: 12px;
+}
+
+.recensione-item-body {
+    margin-top: 10px;
+    padding: 6px 12px;
+}
+
+.recensione-item-footer p {
+    font-size: 14px;
+    color: gray;
+}

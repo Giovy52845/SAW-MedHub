@@ -1,0 +1,64 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    gap: 16px;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 6px 12px;
+    gap: 6px;
+}
+
+.review-doc-img img{
+    display: flex;
+    align-items: flex-start;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+}
+
+.name-star {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-star a {
+    text-decoration: none;
+}
+
+.review-doc {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 12px;
+    background-color: rgba(0, 195, 165, 0.1);
+    border-radius: 8px;
+    gap: 10px;
+    width: 100%;
+}
+
+.review-doc a {
+    text-decoration: none;
+}
+
+.truncate-multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.message {
+    color: black;
+}
+
+.author {
+    color: grey;
+    font-style: italic;
+}

@@ -1,0 +1,107 @@
+.login-input {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.login-input input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.password-field-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.wrong-credentials {
+  font-size: 12px;
+  color: rgb(231, 76, 60);
+}
+
+.submit-btn{
+    border: 1px solid rgb(61, 131, 223);
+    border-radius: 8px;
+    background-color: rgb(61, 131, 223);
+    color: white;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.login-forget-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 6px 12px;
+}
+
+.login-forget-password a {
+    text-decoration: none;
+}
+
+.login-forget-password a:hover {
+    text-decoration: underline;
+}
+
+.account-signup-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centra contenuto orizzontalmente */
+  text-align: center;   /* centra testo */
+  width: 100%;
+  padding-top: 20px;
+}
+
+.account-signup-wrapper hr {
+  width: 70%;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.account-signup-wrapper p {
+  font-size: 12px;
+  color: rgb(98, 114, 130);
+}
+
+.account-signup-wrapper a {
+  text-decoration: none;
+}
+

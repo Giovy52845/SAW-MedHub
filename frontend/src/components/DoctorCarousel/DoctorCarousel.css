@@ -1,0 +1,54 @@
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+  padding-bottom: 32px;
+  margin-top: 20px;
+}
+
+.carousel-container h3{
+  padding-bottom: 16px;
+}
+
+.card-custom {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 150px;
+}
+
+.card-custom .photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-custom .info {
+  flex: 1;
+}
+
+.card-custom h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-custom p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.card-custom a {
+  color: #0d6efd;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card-custom a:hover {
+  text-decoration: underline;
+}

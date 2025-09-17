@@ -1,0 +1,43 @@
+.tuo-account-paziente__settings-sidebar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.paziente-sidebar-title {
+    font-size: 14px;
+    color: rgb(152, 161, 171);
+    list-style-type: none;
+}
+
+.paziente-sidebar-item {
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.paziente-sidebar-item a {
+    text-decoration: none;
+    color: rgb(98, 114, 130) !important;
+}
+
+.paziente-sidebar-item a:hover {
+    text-decoration: underline !important;
+    color: #0d6efd !important;
+}
+
+.paziente-sidebar-divider {
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paziente-sidebar-item.active {
+  color: #007bff;
+  font-weight: bold;
+  border-left: 3px solid #007bff;
+  padding-left: 10px;
+}

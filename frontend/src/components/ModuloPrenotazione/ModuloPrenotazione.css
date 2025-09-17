@@ -1,0 +1,242 @@
+.modulo-prenotazione__wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 100px;
+    align-self: start;
+    min-width: 420px;
+    max-width: 450px;
+    background-color: white;
+}
+
+.modulo-prenotazione__header {
+    background-color: #3d83df;
+    padding: 15px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.modulo-prenotazione__header h4 {
+    margin: 0;
+    color: white;
+}
+
+.modulo-prenotazione__body {
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
+.modulo-prenotazione__custom-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid grey !important;
+    border-left: none !important;
+    color: black;
+}
+
+.modulo-prenotazione__custom-link.active {
+    border-bottom: 3px solid black !important;
+    color: #00c3a5 !important;
+}
+
+.prenota-studio__container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.prenota-studio__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 20px;
+}
+
+
+.prenota-studio__indirizzo,
+.prenota-studio__prestazioni {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 12px;
+    width: 100%;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+.prenota-studio__indirizzo h6,
+.prenota-studio__prestazioni h6 {
+    color: rgb(100, 100, 100);
+}
+
+
+.prenota-studio__prestazioni select {
+    width: 99%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: border 0.2s;
+    margin-bottom: 5px;
+}
+
+.prenota-studio__prestazioni select:focus {
+    border-color: black;
+    outline: none;
+}
+
+.prenota-studio__prestazioni p {
+    margin: 0;
+}
+
+.slot-disponibili__slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slot-disponibili__slider-container {
+    overflow-x: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.espanso {
+    max-height: 400px !important;
+    overflow-y: visible;
+}
+
+.slot-disponibili__slider {
+  display: flex;
+  gap: 1rem;
+  min-width: max-content;
+}
+
+.slot-disponibili__giorno-colonna {
+  min-width: 100px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.slot-disponibile__lista-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+    max-height: 160px;
+    overflow-y: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.slot-disponibile__lista-slot.espanso {
+    max-height: 1000px;
+    overflow-y: visible;
+}
+
+.slot-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0B63CE;
+    background-color: #EEF4FF;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer !important;
+}
+
+.online-btn {
+    background-color: #F3EDFF;
+    color: #6C3FC6
+}
+
+.online-btn:hover {
+    border: 1px solid #D1BFFF !important;
+}
+
+.slot-btn:hover {
+    border: 1px solid #0B63CE;
+}
+
+.slot-btn:disabled {
+  cursor: not-allowed;
+  text-decoration: line-through;
+  color: #6B7280;
+  background-color: transparent;
+}
+
+.slot-btn.occupato {
+  color: #6B7280;
+  background-color: transparent;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+.slot-disponibile__mostra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    color: #0B63CE;
+    font-weight: bold;
+    cursor: pointer !important;
+}
+
+.toggle-btn:hover {
+    text-decoration: underline;
+}
+
+.online {
+    background-color: #8870d5;
+}
+
+.prenota-online__container {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.modulo-prenotazione__footer{
+    margin-left: 10px;
+    background-color: #eef4ff;
+    color: #0b63ce;
+    padding: 10px 15px;
+    border-left: 4px solid #0b63ce;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.modulo-prenotazione__footer p {
+    margin: 0;
+}
+
+.online-footer {
+    background-color: #F3EDFF;
+    color: #6C3FC6;
+    border-color: #8870d5;
+}

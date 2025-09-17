@@ -1,0 +1,112 @@
+.question-last-days {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.question-chats a{
+    text-decoration: none;
+    color: black;
+}
+
+.question-chats a:hover {
+    text-decoration: underline;
+}
+
+.chat-box-user {
+  position: relative;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.chat-box-user::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #fff;
+  filter: drop-shadow(-1px 0 1px rgba(0,0,0,0.1));
+}
+
+.truncate-multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.chat-box-doc {
+  position: relative;
+  background-color: #edeff2;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 8px 0;
+  max-width: 80%;
+  margin-left: auto;
+}
+
+.chat-box-doc::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #f1f5f9;
+}
+
+.chat-doc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat-doc-img img{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.chat-doc-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.chat-doc-info h6 {
+    color: #3d83df;
+}
+
+.chat-appointment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    padding-bottom: 16px;
+}
+
+.chat-appointment button {
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-color: #3d83df;
+    color: white;
+}
+
+.chat-appointment button:hover {
+    color: rgb(191, 195, 199);
+}

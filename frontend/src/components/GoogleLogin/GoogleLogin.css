@@ -1,0 +1,45 @@
+.oauth2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.google-btn {
+    position: relative;
+    height: 45px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.google-btn img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: auto;
+}
+
+.google-btn span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

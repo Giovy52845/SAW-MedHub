@@ -1,0 +1,140 @@
+.scrivi-recensione-container-fluid {
+    background-color: white;
+    overflow-y: auto;
+}
+
+.recensione-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    height: 40px;
+}
+
+.back button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    color: #4BA276;
+    font-size: 20px;
+}
+
+.recensioni-step h6{
+    margin: 0;
+    font-size: 18px;
+    color: #4BA276;
+}
+
+.crea-recensione__container {
+    margin: 50px auto;
+    border: 1px solid grey;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    min-width: 900px;
+}
+
+.crea-recensione__header {
+    margin-bottom: 50px;
+}
+
+.crea-recensione-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.crea-recensione-img img {
+    height: 80px;
+    width: auto;
+}
+
+.punteggio-star {
+    display: flex;
+    gap: 5px;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.star {
+  transition: transform 0.2s ease;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+
+.scrivi-recensione__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.scrivi-recensione-p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.recensione-input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 650px;
+    padding: 6px 12px;
+    background-color: transparent;
+}
+
+.invia-recensione {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.invia-recensione button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.invia-recensione button:hover {
+    background-color: #0056b3;
+}
+
+.invio-confermato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.invio-confermato button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.invio-confermato button:hover {
+    background-color: #0056b3;
+}

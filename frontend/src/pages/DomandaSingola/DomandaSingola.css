@@ -1,0 +1,141 @@
+.domanda-fluid {
+    background-color: #edeff2;
+}
+
+.navbar-domande {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00c3a5;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-indietro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-indietro button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+.navbar-indietro button:hover {
+    color: #ccc;
+}
+
+.domande-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.chat-box-title {
+    margin-bottom: 20px;
+}
+
+.chat-box-user-dom {
+  position: relative;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.chat-box-user-dom::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #fff;
+  filter: drop-shadow(-1px 0 1px rgba(0,0,0,0.1));
+}
+
+.chat-box-title p {
+    color: grey;
+    margin: 0;
+}
+
+.box-text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.thread-risposta {
+    margin-top: 50px;
+}
+
+.chat-text-san {
+    display: flex;
+    background-color: #d6efff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+
+.chat-text-san p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.risposta-img img {
+    height: 80px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.risposta-san-info { 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.risposta-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.risposta-info p {
+    margin: 0;
+}
+.footer-risposte {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+}
+

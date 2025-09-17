@@ -1,0 +1,13 @@
+{
+  "name": "MedHUB",
+  "short_name": "MedHUB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00c3a5",
+  "icons": [
+    { "src": "./icons/web-app-manifest-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/web-app-manifest-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "gcm_sender_id": "103953800507"
+}

@@ -1,0 +1,119 @@
+.domande-paziente__wrapper {
+    background-color: #edeff2;
+    min-height: 100vh;
+}
+
+.domande-paziente__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.domande-paziente__item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.domande-paziente__no-domande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.domande-paziente__no-domande p {
+    font-size: 20px;
+    color: gray;
+    font-style: italic;
+}
+
+.no-domande-btn {
+    margin-top: 30px;
+}
+
+.no-domande-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #0d6efd;
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.0.10);
+}
+
+.no-domande-btn a:hover {
+    background-color: #0b5ed7;
+}
+
+.domande-paziente__header {
+    margin-bottom: 10px;
+}
+
+.domande-paziente-show {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 6px 12px;
+}
+
+.paziente-risposta-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.risposte-counter,
+.risposta-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.risposta-data p,
+.risposte-counter p {
+    margin: 0;
+}
+
+.truncate-paz {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-style: italic;
+  color: gray;
+}
+
+.paziente-risposta-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paziente-risposta-footer p {
+    margin: 0;
+}
+
+.risposta-visualizza {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.risposta-visualizza a {
+    text-decoration: none;
+    color: white;
+    background-color: #0d6efd;
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.0.10);
+}
+
+.risposta-visualizza a:hover {
+    background-color: #0b5ed7;
+}

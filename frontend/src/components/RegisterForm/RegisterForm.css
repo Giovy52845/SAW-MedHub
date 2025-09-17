@@ -1,0 +1,143 @@
+.register-input {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.register-input input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.password-checker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.password-checker p {
+    color: rgb(98, 114, 130);
+}
+
+.password-checker ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    margin-top: -15px;
+}
+
+.psw-passed,
+.psw-denied {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+}
+.psw-passed {
+    color: rgb(0, 179, 155);
+}
+
+.email-denied,
+.psw-denied {
+    color: rgb(231, 76, 60);
+}
+
+.email-denied {
+    font-size: 12px;
+}
+
+.signup-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.submit-btn{
+    border: 1px solid rgb(61, 131, 223);
+    border-radius: 8px;
+    background-color: rgb(61, 131, 223);
+    color: white;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+.password-field-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.toggle-password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.signup-checkbox-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.signup-checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+  margin: 50px 0;
+}
+
+.signup-checkbox-label input[type="checkbox"] {
+  margin-top: 3px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.signup-checkbox-label span {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.policy-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.policy-wrapper hr {
+  width: 70%;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.policy-wrapper p {
+    font-size: 12px;
+    color: rgb(98, 114, 130);
+}

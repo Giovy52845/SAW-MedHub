@@ -1,0 +1,198 @@
+.sanitario-widget__box {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px 20px;
+    transition: box-shadow 0.2s;
+}
+
+/* CSS FILE ProfiloWidget.jsx*/
+
+.profile-widget__header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.profile-widget__header-img img {
+    height: 100px;
+    width: auto;
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.profile-widget__header-title h5{
+    color: grey;
+    font-style: italic;
+    line-height: 1;
+}
+
+.profile-widget__body {
+    padding-top: 20px;
+    line-height: 1;
+    font-size: 17px;
+}
+
+.profile-widget__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.profile-widget__footer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.profile-widget__footer button:hover{
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+/* CSS file AppuntamentiWidget.jsx*/
+
+.sanitario-widget__box {
+  background-color: #f9fcff;
+  border: 1px solid #e0e6ed;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.prossimi-appuntamenti h3,
+.riepilogo-stato h4 {
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.appuntamenti-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 18px;
+  margin-top: 0.5rem;
+  color: #34495e;
+}
+
+.nessun-appuntamento {
+  font-style: italic;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+.riepilogo-stato {
+  margin-top: 1.5rem;
+}
+
+.stato-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.stato-list .circle {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.circle.green { background-color: #27ae60; }
+.circle.yellow { background-color: #f1c40f; }
+.circle.red { background-color: #e74c3c; }
+
+.pazienti-widget-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  padding: 6px 12px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.pazienti-widget-item p {
+  margin: 0;
+}
+
+.btn-lista-pazienti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn-lista-pazienti a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.widget-domande-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.widget-domande-ul p {
+  margin: 0;
+}
+
+.truncate-widget {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+.btn-domande {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.domande-widget-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+}

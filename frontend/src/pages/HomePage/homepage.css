@@ -1,0 +1,25 @@
+.hero {
+  background-color: #00c3a5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.hero-content {
+    max-width: 1200px;
+}
+
+.hero-img {
+    max-height: 450px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    max-height: 200px;
+  }
+}
+
+.benefits .hero-content {
+  padding-top: 48px;
+}

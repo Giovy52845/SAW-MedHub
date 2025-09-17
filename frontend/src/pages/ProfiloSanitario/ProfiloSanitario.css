@@ -1,0 +1,165 @@
+.profilo-sanitario__container-fluid {
+    background-color: #edeff2 !important;
+}
+
+.profilo-sanitario__header {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profilo-sanitario__img img {
+    height: 150px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.profilo-sanitario__img img:hover {
+    transform: scale(1.02);
+}
+
+.profilo-sanitario__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profilo-sanitario__info p{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.profilo-sanitario__valutazione {
+    display: flex;
+    gap: 15px;
+}
+
+
+.save-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #e74c3c;
+}
+
+.save-button:hover {
+  transform: scale(1.2);
+}
+
+.profilo-sanitario__tabs,
+.profilo-sanitario__tariffe,
+.profilo-sanitario__container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profilo-sanitario__bio p {
+    text-align: justify;
+}
+
+.profilo-sanitario__custom-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.profilo-sanitario__custom-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    color: black;
+}
+
+.profilo-sanitario__custom-link.active {
+    color: #00c3a5 !important;
+}
+
+.box-online {
+  background-color: #f9fefe;
+  border-left: 4px solid #00b894;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  margin-bottom: 1rem;
+}
+
+.titolo-sezione {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 0.8rem;
+}
+
+.testo-descrizione {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+.nota-pagamento {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #00b894;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.box-studio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.lista-prestazioni {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prestazione {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+}
+
+.nome-prestazione {
+  font-weight: 500;
+  color: #333;
+}
+
+.prezzo-prestazione {
+  font-weight: 600;
+  color: #00b894;
+}
+
+.profilo-sanitario__recensioni {
+margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}

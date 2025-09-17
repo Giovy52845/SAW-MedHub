@@ -1,0 +1,109 @@
+
+.hero-privacy{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.patient-navbar{
+    background-color: white;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.navbar-patientdata {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.navbar-patientdata-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid grey;
+  border-radius: 6px;
+  background-color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.navbar-patientdata-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-patientdata-logo img {
+  height: 40px;
+  width: auto;
+}
+
+.privacy-wrapper {
+    width: 100%;
+    background-color: #f7f9fa;
+}
+
+.privacy-container {
+    max-width: 1200px;
+}
+
+.privacy-img img {
+    height: 270px;
+    width: auto;
+}
+
+.privacy-text {
+    padding-top: 32px;
+}
+
+.privacy-text h3{
+    padding: 12px 0;
+}
+
+.privacy-li-text p{
+    display: flex;
+    align-items: center;
+    color: rgb(98, 114, 130);
+}
+
+.icon-circle {
+    border: 1px solid white;
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 50%;
+    color: green;
+    display: flex;
+    align-items: center;
+}
+
+.owner-container {
+    max-width: 1200px;
+    padding: 50px 0;
+}
+
+.owner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owner-img img {
+    height: 410px;
+    width: auto;
+}
+
+.data-footer {
+    background-color: #00c3a5;
+}
+
+.data-footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+}

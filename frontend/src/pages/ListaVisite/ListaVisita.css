@@ -1,0 +1,119 @@
+.lista-visite__wrapper {
+    background-color: #edeff2;
+    min-height: 100vh;
+}
+
+.lista-visite {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.lista-visite__header h3 {
+    margin-top: 15px;
+}
+
+.lista-visite__filtro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.lista-visite__filtro h6 {
+    margin: 0;
+}
+
+.liste-filtro-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+
+.liste-filtro-btn:hover {
+    opacity: 1;
+}
+
+.liste-filtro-btn.tutte {
+    background-color: #4A90E2;
+}
+
+.liste-filtro-btn.future {
+    background-color: #50C878 ;
+}
+
+.liste-filtro-btn.passate {
+    background-color: #555555;
+}
+
+.liste-filtro-btn.active {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  font-weight: bold;
+  outline: 2px solid white;
+}
+
+.liste-filtro-btn svg {
+    color: white;
+}
+
+
+.liste-filtro-item {
+    display: flex;
+    padding: 6px 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 2px;
+}
+
+.liste-filtro-data {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.liste-text {
+    font-size: 18px;
+}
+
+.referto {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.referto-btn {
+    text-align: right;
+    background-color: #4caf50;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.referto-btn:hover {
+    background-color: #45a049;
+}
+
+.liste-text.referto {
+    color: #e57373;
+    font-style: italic;
+    font-weight: bold;
+}
+

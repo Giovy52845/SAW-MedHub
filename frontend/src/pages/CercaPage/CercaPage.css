@@ -1,0 +1,117 @@
+.ricerca-fluid {
+    background-color: #edeff2;
+}
+
+.container-ricerca {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-ricerca-san {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+}
+
+.info-ricerca{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.ricerca-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row !important;
+    gap: 20px
+}
+
+.img-san img{
+    height: 90px;
+    width: auto;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.img-san img:hover{
+    transform: scale(1.02);
+    border: 1px solid #3d83df;
+}
+
+.title-san {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.title-san:hover {
+    color: #3d83df;
+}
+
+.subtitle-san {
+    font-size: 18px;
+    color: gray;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 8px !important;
+}
+
+.recensioni-ricerca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.recensioni-ricerca p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.comp-specifiche p{
+    font-size: 18px;
+    color: gray;
+    font-style: italic;
+}
+
+.prestazioni{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.no-prestazioni {
+    font-size: 18px;
+    font-style: italic;
+    color: gray;
+    margin: 0;
+}
+
+.prestazioni p {
+    margin: 0;
+}
+
+.prestazioni-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.prestazioni-item p,
+.prestazione-online {
+    font-size: 18px;
+    margin-bottom: 5px;
+}

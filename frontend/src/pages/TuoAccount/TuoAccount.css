@@ -1,0 +1,226 @@
+.tuo-account-paziente__container {
+    background-color: #edeff2;
+    min-height: 100vh;
+}
+
+.tuo-account-paziente__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tuo-account-paziente__card-info {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 35px 20px 35px;
+}
+
+.paziente-card-p{
+    color: grey;
+    font-size: 14px;
+}
+
+.paziente-card__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.paziente-card__field input{
+    border: 1px solid black !important;
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+    width: 78.5%;
+}
+
+.paziente-card__btn-gender button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    text-align: center;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+.btn-male.active {
+  background-color: #e6f0ff;  
+  border-color: #007bff;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn-female.active {
+  background-color: #ffe6f0;  
+  border-color: #d63384;      
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn-altro.active {
+  background-color: #e6ffee;  
+  border-color: #28a745;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.paziente-card__phone-input {
+    width: 78.5% !important;
+    border: 1px solid black !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.react-tel-input .flag-dropdown {
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+}
+
+.react-tel-input input.form-control {
+  border: 1px solid black;
+  border-radius: 0 8px 8px 0;
+  height: 39px;
+  font-size: 16px;
+}
+
+
+.flag-dropdown {
+  background-color: white !important;
+  border: 1px solid black !important;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+  height: 39px !important;
+}
+
+.divider-prova {
+    width: 100%;
+    border-top: 1px solid #999;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.paziente-card__footer {
+    width: 100%;
+}
+
+.paziente-card__footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paziente-card__submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #4CAF76;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+    color: white;
+    cursor: pointer;
+}
+
+.paziente-card__submit-btn:hover {
+  background-color: #43a367; 
+  transform: scale(1.02);     
+}
+
+.paziente-card__cancel-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #d3d3d3;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+    color: #333;
+    cursor: pointer;   
+}
+
+.paziente-card__cancel-btn:hover {
+  background-color: #b0b0b0;
+  transform: scale(1.02);    
+}
+
+.paziente-card__footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.paziente-card__cancel-account-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #dc3545;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+    color: white;
+    cursor: pointer; 
+    
+}
+
+.paziente-card__cancel-account-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.02);    
+}
+
+.tabs-container__wrapper {
+  margin-top: 50px;
+}
+
+.custom-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.custom-tab-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #388e3c;
+  background-color: #c8e6c9;
+  border: 1px solid transparent;
+}
+
+.custom-tab-link.active {
+  background: #388e3c !important;
+  color: #fff !important;
+}
+
+.custom-allert {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: 20px;
+  width: 90%;
+}
+
+.tuo-account-notifiche {
+  display: flex;
+  flex-direction: column;
+}
